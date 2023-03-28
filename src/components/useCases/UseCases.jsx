@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./useCases.module.css";
 import pricingIcon from "../../images/pricingPlan.svg";
 import forStudent from "../../images/for-student.svg";
+import forWork from "../../images/forWork.svg";
+import forCurious from "../../images/for_curious.svg";
 
 const UseCases = () => {
   return (
@@ -25,7 +27,10 @@ const UseCases = () => {
           </p>
           <img src={forStudent} alt="" />
         </div>
-        <div className={styles.card}>
+        <div className={styles.card1}>
+          <div className={styles.card1_img}>
+            <img src={forWork} alt="" />
+          </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -44,6 +49,7 @@ const UseCases = () => {
             and scrambled it to make a type specimen book. It has survived not
             only five centuries
           </p>
+          <img src={forCurious} alt="" />
         </div>
       </div>
     </div>
